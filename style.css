@@ -121,13 +121,51 @@ h1, h2 {
 
 /* site message */
 
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
 .flexbox-item {
-    width: 200px;
+    width: 30%;
     margin: 10px;
     border: 3px solid #333;
     background-color: #dfdfdf;
+    color: #fff;
 }
 
 .flexbox-item-1 {
-    min-height: 100px;
+    min-height: 75vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/skate1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.flexbox-item-2 {
+    min-height: 75vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/safe-skater.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.flexbox-item-3 {
+    min-height: 75vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/skate-group1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.flexbox-item-head {
+    font-size: 200%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #fff;
 }
