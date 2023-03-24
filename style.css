@@ -125,7 +125,7 @@ h1, h2 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    align-content: center;
+    text-align: center;
 }
 
 .flexbox-item {
@@ -165,6 +165,7 @@ h1, h2 {
     font-size: 200%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
+    margin: 0;
     letter-spacing: 4px;
     text-align: center;
     color: #fff;
