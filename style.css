@@ -11,7 +11,7 @@
 
 nav {
     height: 80px;
-    background: #fdcc04;
+    background: #000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,7 +21,7 @@ nav {
 /* logo "Aging Skater" */
 
 .logo {
-    color: #000;
+    color: #fdcc04;
     font-size: 1.5rem;
     font-weight: bold;
     font-style: italic;
@@ -32,7 +32,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #000;
+    color: #fdcc04;
     padding: 0 1.5rem;
 }
 
@@ -110,7 +110,13 @@ button:hover {
 .hero-image {
     width: 100%;
     height: 75%;
-    border-radius: 85%;
+}
+
+/* about section */
+
+.about {
+    display: flex;
+    flex-flow: row wrap;
 }
 
 /* gallery */
@@ -162,7 +168,7 @@ button:hover {
 .signup-form {
     margin: 150px 10% 0 0;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(161, 204, 6, 0.6);
     max-width: 400px;
     position: absolute;
     left: 10%;
