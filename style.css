@@ -116,7 +116,38 @@ button:hover {
 
 .about {
     display: flex;
-    flex-flow: row wrap;
+    text-align: center;
+    justify-content: center;
+    flex: 3;
+    background: #fdcc04;
+}
+
+.about > * {
+    padding: 10px;
+    margin: 10px;
+    flex: 1 100%;
+    border-radius: 10px;
+}
+
+.about-head {
+    background: #000;
+    height: 75px;
+    color: #fdcc04;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.about-main {
+    text-align: left;
+    background: #fdcc04;
+    height: 300px;
+    font-size: 24px;
+    order: 3;
+}
+
+.about-item {
+    background: #000;
+    color: #fdcc04;
 }
 
 /* gallery */
