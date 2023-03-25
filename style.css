@@ -26,6 +26,7 @@ nav {
     font-weight: bold;
     font-style: italic;
     padding: 0 2rem;
+    text-decoration: none;
 }
 
 /* navbar links */
@@ -121,6 +122,9 @@ button:hover {
     text-align: center;
     justify-content: center;
     background: #fdcc04;
+    font-family: Oswald, sans-serif;
+    font-weight: 400;
+    font-style: italic;
 }
 
 .about>* {
