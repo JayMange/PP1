@@ -7,3 +7,6 @@ Users of this site will be able to post pics to the gallery and members can arra
 Validator Testing
 HTML - No errors were returned after running it through the offical W3C Validator.
 CSS - No errors were returned after running it through the offical (Jigsaw) Validator. 
+Accessibility - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools
+
+![alt text] url(images/README/lighthouse.lnk)
